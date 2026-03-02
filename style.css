@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #1e2a78, #253b9c);
+    min-height: 100vh;
+    padding: 30px;
+    color: white;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+/* CARD STYLE */
+.card {
+    background: #f5f6fa;
+    color: #000;
+    width: 420px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* SEARCH */
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search-box input:focus {
+    border-color: #ff6b2c;
+}
+
+.search-box button {
+    background: #ff6b2c;
+    border: none;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.search-box button:hover {
+    background: #e65a1f;
+}
+
+/* HISTORY BUTTONS */
+#history button {
+    background: #ff6b2c;
+    border: none;
+    padding: 6px 12px;
+    margin: 5px 5px 0 0;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#history button:hover {
+    background: #e65a1f;
+}
+
+/* WEATHER INFO ROWS */
+#weatherResult p {
+    background: #eaeaea;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border-left: 4px solid #ff6b2c;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ERROR */
+#weatherResult .error {
+    color: red;
+    font-weight: 500;
+}
+
+/* CONSOLE CARD */
+.console-card {
+    background: #f5f6fa;
+    padding: 20px;
+    border-radius: 12px;
+    width: 880px;
+    margin: auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.console-card h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* DARK CONSOLE BOX */
+#logBox {
+    background: #101d52;
+    color: #c8d6ff;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    min-height: 120px;
+}
